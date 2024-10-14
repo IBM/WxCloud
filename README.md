@@ -1,4 +1,4 @@
-# Creation and Upload of WmCloud Application
+# Creates and Uploads WmCloud Application
 
 This package shows how to automate the creation and upload of WmCloud application and services from a config
 
