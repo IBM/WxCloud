@@ -1,0 +1,16 @@
+{
+  "applicationName" : "Hybrid_IO_E2E",
+  "description" : "Hybrid_IO_E2E",
+  "aliasName" : "default",
+  "isNew" : "false",
+  "serviceIsNew" : "true",
+  "serviceDetails" : [ {
+    "packageName" : "Hybrid_IO_E2E",
+    "serviceName" : "Hybrid_IO_E2E.services.e2e:doSomething",
+    "displayName" : "doSomething",
+    "isNew" : "true",
+    "batchFlag" : "false"
+  } ],
+  "accountAlias" : "Hybrid_IPaaS",
+  "tenantAlias" : "default"
+}
