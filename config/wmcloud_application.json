@@ -5,8 +5,8 @@
   "isNew" : "false",
   "serviceIsNew" : "true",
   "serviceDetails" : [ {
-    "packageName" : "Hybrid_IO_E2E",
-    "serviceName" : "Hybrid_IO_E2E.services.e2e:doSomething",
+    "packageName" : "WxCloud",
+    "serviceName" : "wx.cloud.services.e2e:doSomething",
     "displayName" : "doSomething",
     "isNew" : "true",
     "batchFlag" : "false"
