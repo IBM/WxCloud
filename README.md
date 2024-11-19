@@ -80,9 +80,13 @@ The sample config [wmcloud_application.json](./config/wmcloud_application.json) 
 ### application.properties
 #Sample Generated Template
 #Thu Jun 27 14:24:12 GMT 2024
+
 wmcloudsettings.default.iLiveURL=https\://dummy.int-aws-de.webmethods.io
-wmcloudsettings.default.password=<AES Password generated from IS>
+
+wmcloudsettings.default.password="AES Password generated from IS"
+
 wmcloudsettings.default.username=gitops
+
 wmcloudaccount.Hybrid_IPaaS.stage=stage00
 
 ## Contribute
