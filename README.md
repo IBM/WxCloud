@@ -41,7 +41,7 @@ The sample config [wmcloud_application.json](./config/wmcloud_application.json) 
       <value name="username">gitops</value>
       <value name="pswdHandle">wm.is.admin.ilive.gitops.default</value>
       <value name="iLiveURL">https://dummy.webmethods.io</value>
-      <value name="umURL">nhps://dummy.um.int-aws-de.webmethods.io:443//psdev/</value>
+      <value name="umURL">nhps://dummy.um.int-aws-de.webmethods.io:443//dummy/</value>
   </record>
   </record>
 </IDataXMLCoder>
