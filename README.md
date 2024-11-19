@@ -12,7 +12,8 @@ in MSR
 ## Installation
 
 Install from package registry using wpm
-example command: wpm install -ws https://packages.webmethods.io -j <TOKEN> -wr ps_utilities WxCloud:<TAG>
+
+example command: wpm install -ws https://packages.webmethods.io -j "TOKEN" -wr ps_utilities WxCloud:"TAG"
 
 ## Usage 
 
