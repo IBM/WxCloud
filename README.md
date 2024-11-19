@@ -1,6 +1,6 @@
 # WxCloud
 
-This package shows how to automate the creation and upload of WmCloud application and services from a config with MSR
+This package shows how to automate the creation and upload of WmCloud application and services for MSR
 
 ![](./images/wmcloud_application.png)
 
