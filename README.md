@@ -15,6 +15,25 @@ Install using wpm
 
 example command: wpm.sh install -r custom_ibm WxCloud
 
+### wpm.yml
+```yaml
+version: 1
+switches:
+  # relative path of the target installation of IS (-d)
+  target_installation: /opt/softwareag/IntegrationServer/
+  # scan branches for versions (-sb)
+  scan_branches: true
+  # delete contents of SCM on a successful install, or update (-kr)
+  cleanup: true
+# source  repos ( -r repeating switch )
+repositories:
+  custom_ibm:
+    type: git
+    location: https://github.com/IBM/
+    creds:
+      user: USER
+      password: PAT
+```
 ## Usage 
 
 In your docker file
