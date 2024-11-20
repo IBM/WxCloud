@@ -11,9 +11,27 @@ in MSR
 
 ## Installation
 
-Install from package registry using wpm
+Install using wpm
 
-example command: wpm install -ws https://packages.webmethods.io -j "TOKEN" -wr ps_utilities WxCloud:"TAG"
+example command: wpm.sh install -r custom_ibm WxCloud
+
+### wpm.yml
+version: 1
+switches:
+  # relative path of the target installation of IS (-d)
+  target_installation: /opt/softwareag/IntegrationServer/
+  # scan branches for versions (-sb)
+  scan_branches: true
+  # delete contents of SCM on a successful install, or update (-kr)
+  cleanup: true
+# source  repos ( -r repeating switch )
+repositories:
+  custom_ibm:
+    type: git
+    location: https://github.com/IBM/
+    creds:
+      user: USER
+      password: PAT
 
 ## Usage 
 
@@ -21,7 +39,7 @@ In your docker file
 1. Copy the accounts.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
 2. Copy the accounts.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
 3. Copy the application.properties
-4. Install WxCloud using wpm
+4. Install WxCloud using wpm (using above command)
 
 ## Input 
 
