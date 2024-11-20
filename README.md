@@ -6,7 +6,7 @@ This package shows how to automate the creation WmCloud application and upload o
 
 ## Prerequisites
 
-This package assumes that Tenant alias and Account alias has been created. Which could be automated using accounts.cnf, coneections.cnf & application.properties in MSR
+This package assumes that Tenant alias and Account alias has been created. Which could be automated using accounts.cnf, connections.cnf & application.properties in MSR
 
 ## Installation
 
@@ -36,7 +36,7 @@ repositories:
 
 In your docker file
 1. Copy the accounts.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
-2. Copy the accounts.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
+2. Copy the connections.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
 3. Copy the application.properties
 4. Install WxCloud using wpm (using above command)
 
