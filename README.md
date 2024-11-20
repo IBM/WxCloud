@@ -12,6 +12,7 @@ in MSR
 ## Installation
 
 Install using wpm
+
 wpm.sh install -r custom_ibm WxCloud
 ### wpm.yml
 ```yaml
