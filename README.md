@@ -1,13 +1,12 @@
 # WxCloud
 
-This package shows how to automate the creation and upload of WmCloud application and services for MSR
+This package shows how to automate the creation WmCloud application and upload of services to webMethods.IO for MSR
 
 ![](./images/wmcloud_application.png)
 
 ## Prerequisites
 
-This assumes that Tenant alias and Account alias has been created. Which could be automated using accounts.cnf, coneections.cnf & application.properties
-in MSR
+This package assumes that Tenant alias and Account alias has been created. Which could be automated using accounts.cnf, coneections.cnf & application.properties in MSR
 
 ## Installation
 
