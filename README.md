@@ -12,9 +12,7 @@ in MSR
 ## Installation
 
 Install using wpm
-
-example command: wpm.sh install -r custom_ibm WxCloud
-
+wpm.sh install -r custom_ibm WxCloud
 ### wpm.yml
 ```yaml
 version: 1
