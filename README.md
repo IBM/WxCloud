@@ -107,6 +107,17 @@ wmcloudsettings.default.username=gitops
 
 wmcloudaccount.Hybrid_IPaaS.stage=stage00
 
+### References
+
+1. webMethods Microservices Runtime in Container
+https://docs.webmethods.io/on-premises/webmethods-integration-server/11.1.0/webhelp/index.html#page/pie-webhelp/to-docker.html
+
+2. Configuration Variables (application.properties)
+https://docs.webmethods.io/on-premises/webmethods-integration-server/11.1.0/webhelp/index.html#page/pie-webhelp%2Fto-configuration_variables_for_docker.html%23
+
+3. Environment Variables Defined in Integration Server and Microservices Runtime
+https://docs.webmethods.io/on-premises/webmethods-integration-server/11.1.0/webhelp/index.html#page/pie-webhelp%2Fto-sag_environment_variables_2.html
+
 ## Contribution
 
 This is an open-source project and requires community contributions to remain useful. Anyone can contribute to the project in the following ways:
