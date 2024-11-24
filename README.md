@@ -46,7 +46,7 @@ The sample config [wmcloud_application.json](./config/wmcloud_application.json) 
 
 
 ## Sample / example
-Below are only sample configs, for production these needs to adjusted as per the needs.
+Below are only sample configs, for production these needs to be adjusted as per the needs.
 
 ### accounts.cnf
 ```xml
