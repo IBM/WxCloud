@@ -1,4 +1,4 @@
-# WxCloud
+# WxCloudAutomate
 
 This package shows how to automate the creation WmCloud application and upload of services to webMethods.IO for MSR
 
@@ -12,7 +12,7 @@ This package assumes that Tenant alias and Account alias has been created. Which
 
 Install using wpm
 
-wpm.sh install -r custom_ibm WxCloud
+wpm.sh install -r custom_ibm WxCloudAutomate
 ### wpm.yml
 ```yaml
 version: 1
@@ -38,7 +38,7 @@ In your docker file
 1. Copy the accounts.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
 2. Copy the connections.cnf to <Instalation>/IntegrationServer/config/integrationLive/ 
 3. Copy the application.properties
-4. Install WxCloud using wpm (using above command)
+4. Install WxCloudAutomate using wpm (using above command)
 
 ## Input 
 
@@ -46,6 +46,7 @@ The sample config [wmcloud_application.json](./config/wmcloud_application.json) 
 
 
 ## Sample / example
+Below are only sample configs, for PROD, these needs to adjusted as per the needs.
 
 ### accounts.cnf
 ```xml
@@ -81,12 +82,12 @@ The sample config [wmcloud_application.json](./config/wmcloud_application.json) 
         <value name="onPremiseHosts">localhost</value>
         <number name="windowSize" type="java.lang.Integer">5</number>
         <number name="retry" type="java.lang.Long">5</number>
-        <value name="runAsUser">Administrator</value>
+        <value name="runAsUser">USER</value>
         <jboolean name="isEnabled">true</jboolean>
         <jboolean name="isForAdminUse">false</jboolean>
         <record name="properties" javaclass="com.wm.data.ISMemDataImpl">
         </record>
-      <number name="timeToLive" type="java.lang.Long">60001</number>
+      <number name="timeToLive" type="java.lang.Long">60000</number>
       <number name="timeToLiveCache" type="java.lang.Long">30</number>
       </record>
     </array>
@@ -106,7 +107,7 @@ wmcloudsettings.default.username=gitops
 
 wmcloudaccount.Hybrid_IPaaS.stage=stage00
 
-## Contribute
+## Contribution
 
 This is an open-source project and requires community contributions to remain useful. Anyone can contribute to the project in the following ways:
 1. Fork this repository.
