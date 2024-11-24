@@ -1,6 +1,6 @@
 # WxCloudAutomate
 
-This package shows how to automate the creation WmCloud application and upload of services to webMethods.IO for MSR
+This package helps to automate the creation of WmCloud application and upload of services to webMethods.IO for Microservices Runtime (MSR).
 
 ![](./images/wmcloud_application.png)
 
@@ -46,7 +46,7 @@ The sample config [wmcloud_application.json](./config/wmcloud_application.json) 
 
 
 ## Sample / example
-Below are only sample configs, for production these needs to be adjusted as per the needs.
+Below configs are only samples, for production these needs to be adjusted as per the needs.
 
 ### accounts.cnf
 ```xml
